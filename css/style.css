@@ -1,0 +1,205 @@
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  background: black;
+  padding: 20px 0;
+}
+#header .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#header .nav--text a {
+  padding: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  color: #9099A3;
+}
+#header .nav--btn button {
+  padding: 10px 20px;
+  background: #1A5CFF;
+  border-radius: 30px;
+}
+
+#hero {
+  background: url("../img/Rectangle 2068.png") no-repeat center/cover;
+  min-height: 100vh;
+  object-fit: cover;
+}
+#hero .hero--group {
+  padding-top: 40px;
+}
+#hero .hero--group h1 {
+  font-weight: 700;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+#hero .hero--group p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+#hero .hero--group button {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+  padding: 10px 20px;
+}
+
+#page {
+  min-height: 100vh;
+  background: #222222;
+}
+#page .page--hi h1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+#page .page--block {
+  display: flex;
+  align-items: baseline;
+  padding: 20px;
+  width: 90%;
+  height: 547px;
+  left: 80px;
+  top: 734px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+#page .page--block__left p {
+  max-width: 510px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2C3E50;
+}
+#page .page--block__right p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #2C3E50;
+  padding: 30px 0;
+}
+#page .page--block__right summary {
+  cursor: pointer;
+  display: flex;
+}
+#page .page--block__right summary h1 {
+  font-weight: 700;
+  padding: 30px 0;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2C3E50;
+}
+#page .page--block__right details {
+  display: flex;
+}
+#page .page--block__right h1 {
+  padding: 20px 0;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2C3E50;
+}
+#page .page--block__right--group {
+  display: flex;
+}
+#page .page--block__right--group img {
+  padding: 0 0 0 100px;
+}
+#page .page--block__right--group__text span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  color: #2C3E50;
+}
+#page .page--block__right--group__text h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2C3E50;
+}
+
+#main {
+  background: #222222;
+  min-height: 100vh;
+}
+#main .main--hi h1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 54px;
+  color: #FFFFFF;
+}
+#main .main--group {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+#main .main--group__block {
+  margin: 10px;
+  padding: 20px;
+  max-width: 450px;
+  height: 300px;
+  left: 80px;
+  top: 1508px;
+  background: #FFFFFF;
+  border-radius: 15px;
+}
+#main .main--group__block--icon {
+  display: flex;
+  justify-content: space-between;
+}
+#main .main--group__block p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2C3E50;
+  padding: 30px 0;
+}
+#main .main--group__block span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #2C3E50;
+  padding: 20px 0;
+}
+#main .main--group__block button {
+  margin: 20px 0;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  width: 180px;
+  padding: 5px 10px;
+  float: right;
+  background: #1A5CFF;
+  box-shadow: 0 8px 20px rgba(26, 92, 255, 0.2);
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
